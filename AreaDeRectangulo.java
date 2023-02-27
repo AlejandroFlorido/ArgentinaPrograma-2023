@@ -13,5 +13,8 @@ class AreaDeRectangulo
 
                 double Area=B*H;
             System.out.println("El area es: "+Area);
+            {
+                R.close();
+            }
     }
 }

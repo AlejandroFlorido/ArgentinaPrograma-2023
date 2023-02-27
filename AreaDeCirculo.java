@@ -27,6 +27,9 @@ class AreaDeCirculo
             // 22/7 es la forma de escribir π en codigos //
 
             System.out.println ("El area del circulos es:"+ area);
+            {
+                C.close();
+            }
 
     }     
 

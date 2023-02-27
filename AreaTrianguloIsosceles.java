@@ -14,7 +14,10 @@ class AreaTrianguloIsosceles
         double Area=(B/4)*Math.sqrt((4*A*A)+(B*B));
 
         System.out.println("El area del triangulo isosceles es: " + Area);
+        {
+            T.close();
+        }
     }
-    
+
 }
 

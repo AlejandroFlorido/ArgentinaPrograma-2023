@@ -16,5 +16,8 @@ class AreaDelTriangulo
 
             double area=(B*H)/2;
             System.out.println("The area is: "+area);
+            {
+                C.close();
+            }
     }
 }

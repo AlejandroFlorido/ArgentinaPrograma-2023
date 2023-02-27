@@ -10,6 +10,9 @@ class AreaTrianguloEquilatero
         double L= T.nextDouble();
         double Area=(Math.sqrt(3)/4)*(L*L);
         System.out.println("El area es: "+Area);
+        {
+            T.close();
+        }
     }
-    
+
 }
