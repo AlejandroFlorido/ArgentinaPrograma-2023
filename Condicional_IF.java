@@ -20,9 +20,9 @@ class CondicionalIF
                     if (Num1 < Num2)
                         System.out.println("El numero "+Num2+" es mas grande que el "+Num1);
                     }
-                    {
-                        System.out.println("Ambos son iguales");
-                    }
-                    V.close();
+                        {
+                            System.out.println("Ambos son iguales");
+                        }
+                        V.close();
     }
 }
