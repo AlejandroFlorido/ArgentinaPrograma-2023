@@ -1,7 +1,4 @@
 import java.util.Scanner;
-
-import javax.lang.model.util.ElementScanner14;
-
 class CondicionalIF
 {
 
@@ -23,12 +20,9 @@ class CondicionalIF
                     if (Num1 < Num2)
                         System.out.println("El numero "+Num2+" es mas grande que el "+Num1);
                     }
-                        else 
-                        {
-                            System.out.println("Los dos son iguales");
-                        }
                     {
-                        V.close();
+                        System.out.println("Ambos son iguales");
                     }
+                    V.close();
     }
 }

@@ -1,6 +1,8 @@
 import java.util.Scanner;
 class AreaTrianguloIsosceles
 {
+
+    
     public static void main(String args[])
     {
         Scanner T= new Scanner(System.in);
