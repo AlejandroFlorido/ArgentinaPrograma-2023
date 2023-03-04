@@ -9,7 +9,7 @@ class Factorial {
     public static void main(String[] args){
         Scanner entrada = new Scanner(System.in);
         System.out.println("Ingresa el numero a factorizar");
-        int num = entrada.nextInt();
+        double num = entrada.nextDouble();
         long fact = 1;
         for(long i=1; i<=num; i++){
             fact = (fact*i);
