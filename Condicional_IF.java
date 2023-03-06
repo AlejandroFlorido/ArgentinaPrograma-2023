@@ -22,5 +22,6 @@ class CondicionalIF
                     System.out.println("Ambos son iguales");
                 }
             }
+            V.close();
     }
 }    
